@@ -11,7 +11,7 @@ function Card2() {
 				<div className="container">
 					<h4>Yhteystiedot</h4> 
 				</div>
-				<div className="text">Yhteystiedot on hyviä</div>
+				<div className="text">Ota yhteyttä milloin vain!</div>
 			</div>
 		</div>
 		</a>

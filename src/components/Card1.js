@@ -11,7 +11,7 @@ function Card1() {
 				<div className="container">
 					<h4>Tietoja yhtyeestä</h4> 
 				</div>
-				<div className="text">Yhtye perustettiin vuonna 95</div>
+				<div className="text">Yhtye perustettiin vuonna 2004</div>
 			</div>
 		</div>
 		</a>
