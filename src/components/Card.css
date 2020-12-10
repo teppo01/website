@@ -19,7 +19,6 @@
 	width: 25vw;
 	height: 18vw;
 	background-color: white;
-	border-style: solid;
 	border-color: black;
 	box-shadow: 5px 5px 5px grey;
 
@@ -34,7 +33,6 @@
 	width: 50vw;
 	height: 40vw;
 	background-color: white;
-	border-style: solid;
 	border-color: black;
 	box-shadow: 5px 5px 5px grey;
 
@@ -49,7 +47,6 @@
 	width: 50vw;
 	height: 40vw;
 	background-color: white;
-	border-style: solid;
 	border-color: black;
 	box-shadow: 5px 5px 5px grey;
 	
@@ -65,7 +62,6 @@
 	width: 70vw;
 	height: 60vw;
 	background-color: white;
-	border-style: solid;
 	border-color: black;
 	box-shadow: 5px 5px 5px grey;
 }
