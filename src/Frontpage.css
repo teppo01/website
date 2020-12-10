@@ -1,0 +1,112 @@
+.f-bg{
+	
+	background-color: white;
+}
+
+.f-text{
+	margin: auto;
+	width: 80%;
+	font-size: 130%;
+	font-family: Open-Sans;
+}
+
+.imgLogo2{
+	position: absolute;
+	width: 60%;
+	height: 100%;
+}
+
+.f-enter{
+	height: 40px;
+}
+
+/*Outer desktop*/
+@media only screen and (min-width: 1025px) {
+	
+/* navbar platform*/
+.f-Navbar {
+
+  background-color: black;
+  min-height: 40px;
+	}
+	
+.f-Mobile {
+	display: none;
+	
+}
+	
+.f-Outer {
+	
+	min-height: 100vh;
+	}
+
+
+/* Middle desktop*/
+.f-Middle {
+	
+	min-height: 100vh;
+	background-color: white;
+	}
+
+/* Inner desktop*/
+.f-Inner {
+	display:flex;
+	justify-content: center
+	}
+}
+
+
+
+
+
+
+/*Outer mobile*/
+@media only screen and (max-width: 1025px) {
+/* navbar platform*/
+.f-Navbar {
+
+  background-color: black;
+  min-height: 80px;
+	}
+	
+
+.f-Mobile-Nav {
+  z-index: 1;
+  width: 100%;
+  position: fixed;
+  background-color: black;
+  min-height: 80px;
+	}
+	
+	
+.f-Desktop {
+	display: none;
+	
+}
+	
+.f-Outer {
+	background-color: white;
+	display: table;
+	width: 100%;
+	text-align: center;
+	}
+
+
+/*Middle mobile*/
+.f-Middle {
+  width: 100%;
+  display: table-cell;
+  text-align: center;
+	}
+
+
+/*Inner mobile*/
+.f-Inner {
+	padding-bottom: 10vh;
+	padding-top:10vh;
+
+	display: inline-block;
+	text-align: center;
+	}
+	
+}

@@ -1,0 +1,95 @@
+.c-bg{
+	
+	background-color: white;
+}
+
+.c-text{
+	margin: auto;
+	width: 80%;
+}
+
+.c-gap{
+	min-height: 40vh;
+}
+
+.c-myImg{
+	width: 50%;
+}
+
+/*Outer desktop*/
+@media only screen and (min-width: 1025px) {
+	
+/* navbar platform*/
+.c-Navbar {
+
+  background-color: black;
+  min-height: 80px;
+	}
+	
+.c-Mobile {
+	display: none;
+	
+}
+}
+
+.c-box{
+	background-color: white;
+	margin: auto;
+	width: 80%;
+	position: relative;
+}
+
+.c-header{
+	top: 10vh;
+	text-align: center;
+	font-size: 200%;
+	font-family: Open-Sans;
+}
+
+
+.c-text-content{
+	margin: auto;
+	width: 60%;
+	top: 20vh;
+	text-align: center;
+	font-size: 130%;
+	font-family: Open-Sans;
+	white-space: normal;
+}
+
+.c-enter{
+	height: 40px;
+}
+
+.c-link{
+	text-decoration: none!important;
+	color: black;
+}
+
+
+
+
+/*Outer mobile*/
+@media only screen and (max-width: 1025px) {
+/* navbar platform*/
+.c-Navbar {
+
+  background-color: black;
+  min-height: 80px;
+	}
+	
+
+.c-Mobile-Nav {
+  z-index: 1;
+  width: 100%;
+  position: fixed;
+  background-color: black;
+  min-height: 80px;
+	}
+	
+.c-Desktop {
+	display: none;
+	
+}
+	
+}

@@ -1,0 +1,13 @@
+.Footer {
+   width: 100%;
+   position: bottom;
+   min-height: 10vh;
+   width: 100%;
+   background-color: black;
+   text-align: center;
+
+}
+
+p {
+  color: white;
+}

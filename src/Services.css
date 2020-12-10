@@ -1,0 +1,85 @@
+.s-bg{
+	
+	background-color: white;
+}
+
+.s-text{
+	margin: auto;
+	width: 80%;
+}
+
+.s-box{
+	background-color: white;
+	margin: auto;
+	width: 80%;
+	position: relative;
+}
+
+.s-header{
+	top: 10vh;
+	text-align: center;
+	font-size: 200%;
+	font-family: Open-Sans;
+}
+
+
+.s-text-content{
+	margin: auto;
+	width: 60%;
+	top: 20vh;
+	text-align: left;
+	font-size: 130%;
+	font-family: Open-Sans;
+	white-space: normal;
+}
+
+.s-enter{
+	height: 40px;
+}
+
+/*Outer desktop*/
+@media only screen and (min-width: 1025px) {
+	
+/* navbar platform*/
+.s-Navbar {
+
+  background-color: black;
+  min-height: 80px;
+	}
+
+.s-Mobile {
+	display: none;
+	
+}
+}
+
+
+
+
+
+
+
+/*Outer mobile*/
+@media only screen and (max-width: 1025px) {
+/* navbar platform*/
+.s-Navbar {
+
+  background-color: black;
+  min-height: 80px;
+	}
+	
+
+.s-Mobile-Nav {
+  z-index: 1;
+  width: 100%;
+  position: fixed;
+  background-color: black;
+  min-height: 80px;
+	}
+	
+.s-Desktop {
+	display: none;
+	
+}
+	
+}

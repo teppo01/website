@@ -1,0 +1,84 @@
+.i-bg{
+	
+	background-color: white;
+}
+
+.i-text{
+	margin: auto;
+	width: 80%;
+}
+
+.i-box{
+	background-color: white;
+	margin: auto;
+	width: 80%;
+	position: relative;
+}
+
+.i-header{
+	top: 10vh;
+	text-align: center;
+	font-size: 200%;
+	font-family: Open-Sans;
+}
+
+
+.i-text-content{
+	margin: auto;
+	width: 60%;
+	top: 20vh;
+	text-align: left;
+	font-size: 130%;
+	font-family: Open-Sans;
+	white-space: normal;
+}
+
+.i-enter{
+	height: 40px;
+}
+
+
+/*Outer desktop*/
+@media only screen and (min-width: 1025px) {
+	
+/* navbar platform*/
+.i-Navbar {
+
+  background-color: black;
+  min-height: 80px;
+	}
+	
+.i-Mobile {
+	display: none;
+	
+}
+}
+
+
+
+
+
+
+/*Outer mobile*/
+@media only screen and (max-width: 1025px) {
+/* navbar platform*/
+.i-Navbar {
+
+  background-color: black;
+  min-height: 80px;
+	}
+	
+
+.i-Mobile-Nav {
+  z-index: 1;
+  width: 100%;
+  position: fixed;
+  background-color: black;
+  min-height: 80px;
+	}
+	
+.i-Desktop {
+	display: none;
+	
+}
+}
