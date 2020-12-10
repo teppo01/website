@@ -71,30 +71,27 @@
 }
 }
 	
-.card:hover {
-	background-color: black;
-}
 
 .card:hover .myImg {
-transition: 0.2s;
+transition: 0.3s;
 transform: translateX(-100%) translateY(-20%);
 width: 30%;
 }
 
 .myImg:not( :hover ){
-transition: 0.2s;
+transition: 0.3s;
 transform: translateX(0%) translateY(0%);
 }
 
 .card:hover .text {
-transition: 0.2s;
+transition: 0.3s;
 display: block;
-color: white;
+color: black;
 }
 
 .card:hover .container {
-transition: 0.2s;
-color: white;
+transition: 0.3s;
+color: black;
 }
 
 .text{
