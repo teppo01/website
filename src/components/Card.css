@@ -24,6 +24,23 @@
 
 	}
 	
+	
+	.myImg:not( :hover ){
+	transition: 0.3s;
+	transform: translateX(0%) translateY(0%);
+	}
+
+	.card:hover .text {
+	transition: 0.3s;
+	display: block;
+	color: black;
+	}
+
+	.card:hover .container {
+	transition: 0.3s;
+	color: black;
+	}
+	
 }
 	
 @media only screen and (max-width: 1025px) and (min-width: 600px) {
@@ -74,21 +91,6 @@ transform: translateX(-100%) translateY(-20%);
 width: 30%;
 }
 
-.myImg:not( :hover ){
-transition: 0.3s;
-transform: translateX(0%) translateY(0%);
-}
-
-.card:hover .text {
-transition: 0.3s;
-display: block;
-color: black;
-}
-
-.card:hover .container {
-transition: 0.3s;
-color: black;
-}
 
 .text{
 	display: none;
